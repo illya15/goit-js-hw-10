@@ -1,2 +1,0 @@
-[document.querySelector("#search-box"),document.querySelector(".country-list"),document.querySelector(".country-info")][0].addEventListener("input",debounce((function(e){e.preventDefault();var t=e.target.value.trim();if(!t)return clearCountryList(),void clearCountryInfo();fetchCountries(t).then(renderCountries).catch((function(e){alertNoName(e)}))}),300));
-//# sourceMappingURL=index.70bea3ee.js.map
